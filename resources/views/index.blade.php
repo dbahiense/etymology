@@ -50,21 +50,39 @@
 				<tbody>
 				@foreach($results as $result)
 					<tr>
-						<td>{{$result->id}}</td>
-						<td>{{$result->lemma_id}}</td>
-						<td>{{$result->headword}}</td>
-						<td>{{$result->lemma}}</td>
-						<td>{{$result->pos}}</td>
-						<td>{{$result->gender}}</td>
-						<td>{{$result->language}}</td>
-						<td>{{$result->origin_family}}</td>
-						<td>{{$result->origin}}</td>
-						<td>{{$result->short_path}}</td>
-						<td>{{$result->origin_path}}</td>
-						<td>{{$result->etymology_text}}</td>
-						<td>{{$result->first_use}}</td>
-						<td>{{$result->lang}}</td>
-						<td>{{$result->pageid}}</td>
+	                    <td>{{$result->id}}</td>
+	                    <td>{{$result->lemma_id}}</td>
+	                    <td>{{$result->headword}}</td>
+	                    <td>{{$result->lemma}}</td>
+	                    <td>{{$result->pos}}</td>
+	                    <td>{{$result->gender}}</td>
+	                    <td>{{$result->language}}</td>
+	                    <td>{{$result->origin_family}}</td>
+	                    <td>{{$result->origin}}</td>
+	                    <td>{{$result->short_path}}</td>
+	                    <td>{{$result->origin_path}}</td>
+	                    <td>{{$result->etymology_text}}</td>
+	                    <td>{{$result->first_use}}</td>
+	                    <td>{{$result->lang}}</td>
+	                    <td>{{$result->pageid}}</td>
+	                    <td>{{$result->term}}</td>
+	                    <td>{{$result->non_latin_script}}</td>
+	                    <td>{{$result->lang_2}}</td>
+	                    <td>{{$result->gloss}}</td>
+	                    <td>{{$result->sequence}}</td>
+	                    <td>{{$result->lemma_id_fk}}</td>
+	                    <td>{{$result->derivatives_id}}</td>
+	                    <td>{{$result->etymology_id}}</td>
+	                    <td>{{$result->meaning}}</td>
+	                    <td>{{$result->semantic_category}}</td>
+	                    <td>{{$result->semantic_field}}</td>
+	                    <td>{{$result->simplicity_score}}</td>
+	                    <td>{{$result->age_score}}</td>
+	                    <td>{{$result->borrowed_score}}</td>
+	                    <td>{{$result->description}}</td>
+	                    <td>{{$result->typical_context}}</td>
+	                    <td>{{$result->representation}}</td>
+	                    <td>{{$result->sub_code}}</td>
 					</tr>
         		@endforeach
         		</tbody>
